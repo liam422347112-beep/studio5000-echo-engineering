@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+*.ACD
+*.acd
+*.L5X
+*.l5x
+*.bak
+__pycache__/
+.pytest_cache/
+.venv/
