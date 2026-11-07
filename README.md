@@ -77,10 +77,6 @@ Requires Windows + Studio 5000 Logix Designer v35 + FactoryTalk Logix Echo for t
 ## Hard rules (summary)
 
 1. **No-EDS first** — if third-party Ethernet modules lack local EDS, stop and ask: temporary strip for Echo, or user installs EDS, or cancel. Never silent-strip.
-2. **PackML path** — Clear/Stop/Reset → Idle → Start → Execute with master motion, then judge new EM logic.
-3. **Echo Selected set** — keep master (`EM00`) + EM under test Selected; clear other EMs or Resetting/EnableDone stalls.
-4. **Platform** — Echo 5580 emulator → retarget controller to `1756-L85E` (not “project too large”).
-5. **CIP only to Echo** unless the user explicitly authorizes a real PLC.
 
 Full agent instructions: [`skills/studio5000-echo-engineering/SKILL.md`](skills/studio5000-echo-engineering/SKILL.md)  
 Extended notes: [`docs/reference.md`](docs/reference.md)
